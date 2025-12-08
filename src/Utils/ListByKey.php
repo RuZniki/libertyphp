@@ -4,6 +4,12 @@ namespace Libertyphp\Utils;
 
 class ListByKey
 {
+
+    /**
+     * @template T
+     * @param array<T> $list
+     * @return array<T>
+     */
     public static function get(string $key, array $list): array
     {
         $listByKey = [];
